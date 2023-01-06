@@ -1,0 +1,28 @@
+[
+{
+    "name" : "John",
+    "last_name": "Doe",
+    "affiliation": "Uni of Uni, Somewhere, Foreign",
+    "title" : "Brains are good",
+    "url" : "https://something.com",
+    "image_src": "assets/img/pic.jpeg",
+    "field": "networks",
+    "date": "25.05.2023",
+    "day": "Thursday",
+    "time": "0945",
+     "abstract": "Brains are cool and I will prove it with awesome maths."
+},
+{
+    "name" : "Jill",
+    "last_name": "Joy",
+    "affiliation": "College of Uni, Elsewhere, Here",
+    "title" : "Brains are bad",
+    "url" : "https://something.com",
+    "image_src": "assets/img/pic.jpeg",
+    "field": "networks",
+    "date": "25.05.2023",
+    "day": "Thursday",
+    "time": "1045",
+     "abstract": "Brains are bad and I will prove it with computer science."
+}
+]
