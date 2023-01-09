@@ -1,46 +1,6 @@
 <h1 align="left">Speakers and Abstracts</h1>
 <br>
 
-<div class="row d-flex justify-content-between">
-    <div class="col-md-5">
-        <div class="form-inline">
-            <input class="form-control" ng-model="$ctrl.query" placeholder="Search" />
-        </div>
-    </div>
-    <div class="col-md-5 col-lg-4">
-        <div class="form-inline">
-            <label for="sortBy" style="margin-right:5px">Sort by: </label>
-            <select id="sortBy" class="form-control" ng-model="$ctrl.orderProp">
-                    <option value="-name">First Name</option>
-                    <option value="-date">Date</option>
-                    <option value="-time">Time</option>
-                    <option value="-field">Field</option>
-                    <option value="-last_name">Last Name</option>
-            </select>
-        </div>
-    </div>
+<div id="about" class="panel">
+    <h2 align="center">To Be Announced</h2>
 </div>
-
-<ol class="people" style="min-height:500px">
-    <li ng-repeat="people in $ctrl.people | filter:$ctrl.query | orderBy:$ctrl.orderProp">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm">
-              <dd>
-            <span style="font-size: 12px; font-weight:bold"> {{people.field}} </span>
-            <span style="font-size: 15px; font-weight:bold"> <a target="_blank" href="{{people.url}}"> {{people.name}} </a> </span>
-              <span>({{people.affiliation}})</span>
-              <dd><span style="font-size: 14px; font-weight:bold">Speaking on {{people.date}} at {{people.time}}</span> 
-              <dd><span style="font-size: 14px; font-weight:bold">Title: {{people.title}}</span>
-              </dd>
-          <span style="font-size: 14px">{{people.abstract}}</span>
-      </div>
-      <div class="col-sm">
-        <img src={{people.image_src}} width="200pt">
-
-      </div>
-        </div>
-        <br><br>
-      </div>
-    </li>
-</ol>
