@@ -98,21 +98,11 @@ body {
 }
 
 .day-1 {
-  background-color: #1259B2;
-  color: #fff;
-}
-
-.day-2 {
-  background-color: #687f00;
-  color: #fff;
-}
-
-.day-3 {
   background-color: #544D69;
   color: #fff;
 }
 
-.day-4 {
+.day-2 {
   background-color: #c35500;
   color: #fff;
 }
