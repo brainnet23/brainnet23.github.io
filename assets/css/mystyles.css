@@ -153,7 +153,7 @@ hr {
   height: 40px;
 }
 .lunch {
-  height: 100px;
+  height: 125px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,7 +162,7 @@ hr {
   box-shadow: none;
 }
 .cbreak {
-  height: 50px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
