@@ -149,30 +149,9 @@ hr {
   max-width: 50%;
 }
 
-.height-three {
-     margin-bottom: 3em;
-     position: absolute;
-     top: 50%;
-     transform: translateY(-50%);
-}
-.height-two {
-     margin-bottom: 2em;
-     position: absolute;
-     top: 50%;
-     transform: translateY(-50%);
-}
-.breakcontainer {
-  position: relative;
+.break {
   height: 40px;
 }
-.lunchcontainer {
-  position: relative;
+.lunch {
   height: 80px;
-}
-
-.centered-element {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
