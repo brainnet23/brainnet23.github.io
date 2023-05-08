@@ -12,7 +12,7 @@
     Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
     Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
     */
-    grid-template-columns: [times] 6em [day-1-start] 4.0fr [day-1-end day-2-start] 4.0fr [day-2-end day-3-start] 4.0fr [day-3-end day-4-start] 1fr [day-4-end];
+    grid-template-columns: [times] 6em [day-1-start] 4.0fr [day-1-end day-2-start] 4.0fr [day-2-end];
   }
 }
 .time-slot {
