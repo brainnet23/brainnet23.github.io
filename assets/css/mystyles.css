@@ -5,7 +5,7 @@
   .schedule {
     display: grid;
     grid-gap: 1em;
-    grid-template-rows: [days] auto [time-0900] auto [time-0945] auto [time-1030] auto [time-1100] auto [time-1145] auto [time-1230] auto [time-1400] auto [time-1445] auto [time-1530] auto [time-1600] auto [time-1645] auto [time-1730] auto [time-1815]  auto;
+    grid-template-rows: [days] auto [time-0930] auto [time-1015] auto [time-1020] auto [time-1105] auto [time-1110] auto [time-1115] auto [time-1200] auto [time-1300] auto [time-1345] auto [time-1350] auto [time-1435] auto [time-1500] auto [time-1545] auto [time-1550] auto [time-1635];
     /* Note 1:
     Use 24hr time for gridline names for simplicity
 
