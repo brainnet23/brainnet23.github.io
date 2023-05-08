@@ -161,3 +161,18 @@ hr {
      top: 50%;
      transform: translateY(-50%);
 }
+.breakcontainer {
+  position: relative;
+  height: 40px;
+}
+.lunchcontainer {
+  position: relative;
+  height: 80px;
+}
+
+.centered-element {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
